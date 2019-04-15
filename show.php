@@ -27,7 +27,7 @@ if(isset($_GET['show'])){
 				$q = "INSERT INTO t_rek VALUES('', '$id_user', '$no_rek', '$nama_rek')";
 				$sql = mysql_query($q) or die(mysql_error());
 				if($sql){
-					echo  "<script>document.location=\"user.php\"</script>";	
+					echo  "<script>document.location=\"index.php\"</script>";	
 				}else{
 					echo 'error';
 				}
@@ -54,7 +54,7 @@ if(isset($_GET['show'])){
 				</div>
 			</div>
 			<button type="submit" class="success button" name="Input">Simpan</button>
-			<a href=user.php class="alert button">Back</a>
+			<a href="index.php" class="alert button">Back</a>
 		</div>
 	</form>
 	
