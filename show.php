@@ -39,6 +39,7 @@ if(isset($_GET['show'])){
 	?>
 	<form action="" method="POST" name="Input">
 		<div class="grid-container">
+			<h5>Form Rekening</h5>
 			<div class="grid-x grid-padding-x">
 				<input type="hidden" name="id_user" value="<?php echo $data['id_user'];?>">
 				<div class="medium-6 cell">

@@ -8,7 +8,7 @@
 	if($num > 0){
 			while($data = mysql_fetch_assoc($cek_data)){?>
 				<div class="callout secondary">
-					<h5><?=$data['nama'];?></h5>
+					<h5>Nama User : <?=$data['nama'];?></h5>
 					<a class="button" href="show.php?show=<?=$data['id_user'];?>">Show</a>
 				</div>
 			<?php }
